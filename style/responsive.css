@@ -1,0 +1,105 @@
+
+@media(min-width:576px){
+    .container{
+        width: 54rem;
+    }
+    .header-content__titel{
+        font-size: 5rem;
+    }
+    .header-content__text{
+        font-size: 16px;
+    }
+
+}
+@media(min-width:768px){
+    .container{
+        width: 76rem;
+    }
+
+}
+
+@media(min-width:992px){
+    .container{
+        width: 96rem;
+    }
+    .menu{
+        display: flex;
+    }
+    .nav__btn{
+        display: none;
+    }
+    .header-links{
+        display: flex;
+    }
+    .stay-touch{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: row-reverse;
+    }
+    .footer-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 4rem;
+        
+    }
+    .fotter-about__text{
+        max-width: 60rem;
+    
+    }
+
+    .fotter-option{
+        display: flex;
+        flex-wrap: nowrap;
+        
+    }
+    
+}
+
+@media(min-width:1200px){
+    .container{
+        width: 114rem;
+    }
+    .stay-touch__img{
+        margin-top: 4rem;
+        width: 45rem;
+        height: 35rem;
+    
+    }
+    .stay-touch__wrapper--text{
+        width: 400px;
+        text-align: left;
+    }
+    .stay-touch__wrapper--email{
+        margin-top: 5rem;
+        padding: 3rem 15rem;
+
+    }
+    .stay-touch__wrapper--mail-img1{
+        right: 25px;
+        top: 60px;
+    }
+    .stay-touch__wrapper--mail-img2{
+        position: absolute;
+        left: 3rem;
+        top: 7rem;
+    
+    }
+}
+
+@media(min-width:1400px){
+    .container{
+        width: 138rem;
+    }
+}
+
+@media(max-width:410px){
+    .service{
+        width: 32rem;
+        height: 26rem;
+    }
+    .destinations__titel{
+        font-size: 36px;
+    }
+
+}
