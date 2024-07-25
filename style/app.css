@@ -27,7 +27,7 @@ a{
 /* ====nav==== */
 
 .header{
-    background: linear-gradient(rgba(59,55,53,0.5),rgba(59,55,53,0.5)),url(../images/20240718_185808.jpg);
+    background: linear-gradient(rgba(59,55,53,0.5),rgba(59,55,53,0.5)),url(../images/header-bg.jpg);
     background-position: center;
     background-size: cover;
     height: 90vh;
